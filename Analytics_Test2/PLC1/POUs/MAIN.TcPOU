@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <POU Name="MAIN" Id="{b47f4e5d-de2e-494e-acd1-0fe170b84bc1}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	{attribute 'TcAnalytics'}
+	bEdgeCounter: BOOL;
+	{attribute 'TcAnalytics'}
+	bLifeCycle: BOOL;
+	{attribute 'TcAnalytics'}
+	bLifeTime: BOOL;
+	{attribute 'TcAnalytics'}
+	nThreshold: REAL; 
+	{attribute 'TcAnalytics'}
+	nTrendNumber: SINT;
+	{attribute 'TcAnalytics'}
+	nTrendSine: REAL;
+	nTemp: INT := 0;
+	fbton : ton;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbton(in:= NOT fbton.Q, pt := T#10MS);
+IF fbton.Q THEN
+	nTrendNumber:= nTrendNumber + 1;
+	nTrendSine:= 150*SIN(3.14/250*nTemp);
+	nTemp:= nTemp + 1;
+	IF nTemp >500 THEN 
+		nTemp := 0;
+	END_IF
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+      <LineId Id="12" Count="1" />
+      <LineId Id="28" Count="0" />
+      <LineId Id="30" Count="3" />
+      <LineId Id="14" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

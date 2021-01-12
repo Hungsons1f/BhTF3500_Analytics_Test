@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{875E8CC8-81F5-963C-0D5C-14E3CD1D932A}</SystemId>
+		<IssueTime>2020-12-11T03:56:00</IssueTime>
+		<ExpireTime>2020-12-19T00:00:00</ExpireTime>
+		<LicenseKey>9a9d4ff11e0be615cbee962a627728cf1ca8b2f22383739f37a7fe8638f1b79974e6bde9d20a5825f87a5e0a86d898acb7c43eff8f1b1df9a8681d1c2e4ea54d8cf788c7c705eeb78f0e0ed928cb159b6671df558059ba32a10951bfff20e851d749049fe325c5e9e7637530490a8c554452e790044cc6db4ba4fbab304e74341f223c68d9ff315e6582abcd837cc06100df2162b63639c65f1bb2fb8d50036bce2935a35b32524e4a084528f13e04ca36070959fe925c0e120cf0df0d00e22f5e97fd877d0e7ad317af02320742f9b98170c4e0e7ba149f4f3d70f9e4cd4b72d013f16f26f489c95ae0a3350ef7dcd34cff4abaffabd2b7ced02ee2544b71f9</LicenseKey>
+		<License>
+			<LicenseId>{66689887-CCBD-452C-AC9A-039D997C6E66}</LicenseId>
+			<Name>TC3 PLC</Name>
+			<OrderNo>TC1200</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
+			<Name>TC3 ADS</Name>
+			<OrderNo>TC1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3FF18E97-7754-401B-93FB-70544DE28A13}</LicenseId>
+			<Name>TC3 IO</Name>
+			<OrderNo>TC1100</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{CC0FE26F-70E5-4410-8487-8A75250F91A2}</LicenseId>
+			<Name>TC3 Analytics Stream Helper</Name>
+		</License>
+		<License>
+			<LicenseId>{0ABFD2B0-EAE1-4DC7-AABE-03093B0786B7}</LicenseId>
+			<Name>TC3 IoT Communication (MQTT)</Name>
+			<OrderNo>TF6701</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{973BA0B1-AADD-41C1-B518-302802473922}</LicenseId>
+			<Name>TC3 IoT MQTT Protocol</Name>
+		</License>
+		<License>
+			<LicenseId>{42E60F0D-E1AD-4B78-84B8-FD3ECF44FAA7}</LicenseId>
+			<Name>TC3 IoT HTTPS/REST</Name>
+			<OrderNo>TF6760</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{70A64701-DC70-4557-B425-EC0B67E22215}</LicenseId>
+			<Name>TC3 IoT HTTP Protocol</Name>
+		</License>
+		<License>
+			<LicenseId>{36DE5066-5F1E-4C9F-AED5-D8D1E392C9CB}</LicenseId>
+			<Name>TC3 Analytics Control Device Pack</Name>
+			<Instances>8</Instances>
+		</License>
+		<License>
+			<LicenseId>{BB7AE665-A8D6-41F6-954F-961DDDCDA42B}</LicenseId>
+			<Name>TC3 Analytics Library</Name>
+			<OrderNo>TF3510</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{10032AB1-C6C6-40E5-890B-594BF889C5A3}</LicenseId>
+			<Name>TC3 Analytics - Base</Name>
+		</License>
+		<License>
+			<LicenseId>{8334310E-A938-452F-B407-DBB9033D3E3C}</LicenseId>
+			<Name>TC3 Analytics - Classification</Name>
+		</License>
+		<License>
+			<LicenseId>{A9637E30-A517-4DDB-AB46-659D84CC17CD}</LicenseId>
+			<Name>TC3 Analytics - Compare</Name>
+		</License>
+		<License>
+			<LicenseId>{0223514F-99E7-48E9-A35C-5D8FEFCE6EA9}</LicenseId>
+			<Name>TC3 Analytics - Device Diagnosis</Name>
+		</License>
+		<License>
+			<LicenseId>{A4B90BAF-C47D-4721-802D-C3EB00A416CA}</LicenseId>
+			<Name>TC3 Analytics - IoT</Name>
+		</License>
+		<License>
+			<LicenseId>{8EC413FE-24F8-4829-9D43-6592A14E645D}</LicenseId>
+			<Name>TC3 Analytics - Math</Name>
+		</License>
+		<License>
+			<LicenseId>{BB071F9B-03C9-4836-99BA-B51B2C167AC3}</LicenseId>
+			<Name>TC3 Analytics - Training Base</Name>
+		</License>
+		<License>
+			<LicenseId>{ED986C21-CE99-4CB4-8257-46B7A7218EFA}</LicenseId>
+			<Name>TC3 Analytics - XTS</Name>
+		</License>
+		<License>
+			<LicenseId>{CF9AF283-6829-4276-A6F3-2ED38D08A2C8}</LicenseId>
+			<Name>TC3 Analytics - Vision</Name>
+		</License>
+		<License>
+			<LicenseId>{821FE232-C4AE-4D3B-BA3C-FFD1116F579D}</LicenseId>
+			<Name>TC3 Analytics - ML Base</Name>
+		</License>
+		<License>
+			<LicenseId>{C38C3040-F29A-4F8F-B730-9E12A86D31C9}</LicenseId>
+			<Name>TC3 Analytics - Motion Statistics</Name>
+		</License>
+		<License>
+			<LicenseId>{2109B407-000F-4725-8AA2-B126F0B1C327}</LicenseId>
+			<Name>TC3 Analytics - XY Path Analysis</Name>
+		</License>
+		<License>
+			<LicenseId>{8A716C85-A7D9-443F-A69D-DB7D6CCE6CF7}</LicenseId>
+			<Name>TC3 Analytics - Clustering</Name>
+		</License>
+		<License>
+			<LicenseId>{F5BA86DE-04D5-454D-8B63-57C5900151B5}</LicenseId>
+			<Name>TC3 Analytics - Outlier Detection</Name>
+		</License>
+		<License>
+			<LicenseId>{0DC5DE55-06C2-4875-9657-A516B71B6522}</LicenseId>
+			<Name>TC3 Analytics - Advanced Statistics</Name>
+		</License>
+		<License>
+			<LicenseId>{42025D77-320A-4A1A-A36B-26D25FEB8C2C}</LicenseId>
+			<Name>TC3 Analytics - Preprocessing</Name>
+		</License>
+		<License>
+			<LicenseId>{E0012AB1-862B-4965-BD3B-E8374A313232}</LicenseId>
+			<Name>TC3 Analytics Storage Provider Library</Name>
+		</License>
+		<License>
+			<LicenseId>{796D380F-D49E-4C0C-A05F-500052FAC883}</LicenseId>
+			<Name>TC3 HMI Server</Name>
+			<OrderNo>TF2000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{37E5160D-987B-4640-888D-0F97727B53E2}</LicenseId>
+			<Name>TC3 HMI Clients</Name>
+			<Instances>4</Instances>
+		</License>
+		<License>
+			<LicenseId>{A2091C4C-7D04-4202-B173-9984E7125BC0}</LicenseId>
+			<Name>TC3 HMI Targets</Name>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{648F394E-7DD1-499C-8112-7C38E161A94C}</LicenseId>
+			<Name>TC3 HMI Clients Pack 3</Name>
+			<OrderNo>TF2020</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{EE499E71-9522-4C05-86B4-8AD0F904E0C4}</LicenseId>
+			<Name>TC3 Analytics Runtime</Name>
+			<OrderNo>TF3550</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{A19036CF-A53B-4E3A-99FF-023EF5C4798B}</LicenseId>
+			<Name>TC3 NC PTP Axis</Name>
+			<Instances>10</Instances>
+		</License>
+		<License>
+			<LicenseId>{520DE751-9DB6-47CB-8240-BD5C466E7E64}</LicenseId>
+			<Name>TC3 NC PTP</Name>
+			<OrderNo>TF5000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{02AC2825-C3C7-4D15-AAF6-4EB45EFAA2D0}</LicenseId>
+			<Name>TC3 Analytics Logger</Name>
+			<OrderNo>TF3500</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{4989A799-AEEA-4FEE-88EF-666B99EEFB45}</LicenseId>
+			<Name>TC3 Scope View Professional</Name>
+			<OrderNo>TE1300</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3DDCAB25-BF0E-412C-A721-DC77C1B8099C}</LicenseId>
+			<Name>TC3 Scope Server</Name>
+			<OrderNo>TF3300</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{BB40055B-8333-4223-90EA-7C4559DC7C69}</LicenseId>
+			<Name>TC3 Analytics Workbench</Name>
+			<OrderNo>TE3500</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{21C146FF-61EE-4911-969B-61339FE7DB69}</LicenseId>
+			<Name>TC3 Analytics Control Device Pack 4</Name>
+			<OrderNo>TF3560</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

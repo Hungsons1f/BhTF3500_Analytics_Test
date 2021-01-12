@@ -1,0 +1,32 @@
+﻿<AnalyticsProjectResult StartTime="09/12/2020 10:52:09,819:000" StartTimeValue="132519595298190000" EndTime="09/12/2020 10:56:11,609:000" EndTimeValue="132519597716090000">
+  <Functions>
+    <Function Title="Lifecycle Analysis 1Ch" Name="CTcAlyLifecycleAnalysis_1Ch">
+      <InputLinks>
+        <InputLink InputTitle="Input">MAIN.bSwitch @ 192.168.1.10: DefaultMainTopic/PlcStream1 [10,00ms]</InputLink>
+      </InputLinks>
+      <Parameters>
+        <Parameter Title="Operator Edge">GreaterThanOrEqualTo</Parameter>
+        <Parameter Title="Threshold Edge">1</Parameter>
+        <Parameter Title="Estimated Cycles">1000</Parameter>
+        <Parameter Title="Negate Input">FALSE</Parameter>
+        <Parameter Title="Negate Enable Execution">FALSE</Parameter>
+        <Parameter Title="Negate Reset">FALSE</Parameter>
+      </Parameters>
+      <Outputs>
+        <Output Title="New Result">0</Output>
+        <Output Title="bLifecyclesElapsed">0</Output>
+        <Output Title="Cycles Elapsed">0</Output>
+        <Output Title="Cycles Remaining">0</Output>
+      </Outputs>
+    </Function>
+  </Functions>
+  <InputSources>
+    <InputSource Title="192.168.1.10: DefaultMainTopic/PlcStream1 [10,00ms]" Target="&lt;TargetInfo TargetId=&quot;0&quot;&gt;&#xA;  &lt;MQTTAddress&gt;&#xA;    &lt;ConnectionSettings&gt;&#xA;      &lt;Broker&gt;192.168.1.10&lt;/Broker&gt;&#xA;      &lt;BrokerPort&gt;1883&lt;/BrokerPort&gt;&#xA;      &lt;UserID&gt;&lt;/UserID&gt;&#xA;      &lt;PasswordCrypted&gt;&lt;/PasswordCrypted&gt;&#xA;      &lt;WithCertificates&gt;false&lt;/WithCertificates&gt;&#xA;      &lt;CA_Certificate&gt;&lt;/CA_Certificate&gt;&#xA;      &lt;Cert_Certificate&gt;&lt;/Cert_Certificate&gt;&#xA;      &lt;Key_Certificate&gt;&lt;/Key_Certificate&gt;&#xA;      &lt;Key_PwdCrypted&gt;&lt;/Key_PwdCrypted&gt;&#xA;    &lt;/ConnectionSettings&gt;&#xA;    &lt;Topic&gt;DefaultMainTopic/PlcStream1&lt;/Topic&gt;&#xA;    &lt;CycleTime&gt;100000&lt;/CycleTime&gt;&#xA;    &lt;SystemID&gt;c0552275-876e-863e-ba1f-9911ab788e59&lt;/SystemID&gt;&#xA;  &lt;/MQTTAddress&gt;&#xA;  &lt;SystemAlias&gt;Logger&lt;/SystemAlias&gt;&#xA;&lt;/TargetInfo&gt;">
+      <Inputs>
+        <Input Title="TimeLine" VariableInfo="&lt;Symbol&gt;&lt;Name&gt;TimeLine&lt;/Name&gt;&lt;BitSize&gt;64&lt;/BitSize&gt;&lt;BaseType&gt;ULINT&lt;/BaseType&gt;&lt;BitOffset&gt;-1&lt;/BitOffset&gt;&lt;/Symbol&gt;" />
+        <Input Title="MAIN.bSwitch" VariableInfo="&lt;Symbol TargetId=&quot;0&quot;&gt;&#xA;  &lt;Name&gt;MAIN.bSwitch&lt;/Name&gt;&#xA;  &lt;BaseType&gt;BOOL&lt;/BaseType&gt;&#xA;  &lt;BitSize&gt;8&lt;/BitSize&gt;&#xA;  &lt;Comment /&gt;&#xA;  &lt;Properties /&gt;&#xA;  &lt;BitOffset&gt;0&lt;/BitOffset&gt;&#xA;&lt;/Symbol&gt;" />
+        <Input Title="MAIN.nNumber" VariableInfo="&lt;Symbol TargetId=&quot;0&quot;&gt;&#xA;  &lt;Name&gt;MAIN.nNumber&lt;/Name&gt;&#xA;  &lt;BaseType&gt;INT&lt;/BaseType&gt;&#xA;  &lt;BitSize&gt;16&lt;/BitSize&gt;&#xA;  &lt;Comment /&gt;&#xA;  &lt;Properties /&gt;&#xA;  &lt;BitOffset&gt;8&lt;/BitOffset&gt;&#xA;&lt;/Symbol&gt;" />
+      </Inputs>
+    </InputSource>
+  </InputSources>
+</AnalyticsProjectResult>
